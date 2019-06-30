@@ -1,6 +1,30 @@
 .container-fluid {
-  padding: 0px;
-  .breed-slogan {
-    height: 200px;
+  padding: 30px;
+  .breed-info {
+    margin-top: 100px;
+    height: 80px;
+  }
+
+  .background-circles {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -150px;
+    height: 750px;
+    width: 750px;
+    border-radius: 50%;
+    background-color: #fd6c78;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  .arrows-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
   }
 }

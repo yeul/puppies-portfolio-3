@@ -6,7 +6,7 @@ const Nav = () => {
     <div id='nav-bar'>
       <span>
         <Link href='/'>
-          <a>I am the top navbar.</a>
+          <a>Start Here</a>
         </Link>
       </span>
       <span>
@@ -16,7 +16,7 @@ const Nav = () => {
       </span>
       <span>
         <Link href='/'>
-          <a>History</a>
+          <a>Contact</a>
         </Link>
       </span>
     </div>
