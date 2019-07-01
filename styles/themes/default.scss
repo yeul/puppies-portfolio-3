@@ -1,7 +1,11 @@
 @import "./colors.scss";
 
 body {
-  background: #ffffff;
   font-family: "Raleway";
   color: white;
+  .dog-breed {
+    font-family: "IBM Plex Sans";
+    font-weight: 700;
+    font-style: italic;
+  }
 }

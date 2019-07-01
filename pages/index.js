@@ -38,7 +38,7 @@ class App extends React.Component {
       <Fragment>
         <div className={`container-fluid ${dogs[this.state.index].className}`}>
           <div className='row no-gutters'>
-            <div className='background-circles' />
+            <div className={`background-accent-circle background-accent-${dogs[this.state.index].className}`} />
             <div className='col-lg-12'>
               <Nav />
             </div>
@@ -46,35 +46,30 @@ class App extends React.Component {
           <div className='row no-gutters'>
             <div className='breed-info col-lg-5'>
               <h1 className='dog-breed'>{dogs[this.state.index].breed}</h1>
-              <div className='breed-description'>
-                The Labrador Retriever is a strongly built, medium-sized, short-coupled, dog possessing a sound, athletic, well-balanced conformation
-                that enables it to function as a retrieving gun dog; the substance and soundness to hunt waterfowl or upland game for long hours under
-                difficult conditions; the character and quality to win in the show ring; and the temperament to be a family companion.
-              </div>
+              <div className='breed-description'>{dogs[this.state.index].description}</div>
               <div className='learn-more-btn col-lg-5'>
-                <Button button='Learn More' />
+                <Button buttonName='Learn More' />
               </div>
             </div>
             <div className='image-container col-lg-7'>
-              <div className='image-circle'>
-                <img src={dogs[this.state.index].image} className='dog-image' />
+              <div className={`image-accent-circle image-accent-${dogs[this.state.index].className}`}>
+                <img src={dogs[this.state.index].image} className={`dog-image-${dogs[this.state.index].className}`} />
               </div>
             </div>
           </div>
           <div className='row no-gutters'>
             <div className='col-lg-5' />
-            <div className='arrows-container col-lg-7'>
-              <button className='back-arrow' onClick={this.decreaseNumber}>
-                <span className='icon-left'>⟵ </span>
-                <span className='prev'>PREV</span>
+            <div className='arrow-btns-container col-lg-7'>
+              <button className='arrow-btn-prev' onClick={this.decreaseNumber}>
+                <span className='icon-arrow-left'>⟵ </span>
+                <span className='btn-text-prev'>PREV</span>
               </button>
 
-              <button className='forward-arrow' onClick={this.increaseNumber}>
-                <span className='next'>NEXT</span>
-                <span className='icon-right'>⟶</span>
+              <button className='arrow-btn-next' onClick={this.increaseNumber}>
+                <span className='btn-text-next'>NEXT</span>
+                <span className='icon-arrow-right'>⟶</span>
               </button>
             </div>
-            <h2>{this.state.index}</h2>
           </div>
         </div>
       </Fragment>

@@ -1,10 +1,17 @@
 #nav-bar {
-  display: flex;
-  flex-direction: row;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 80px;
-  span {
-    margin-left: 20px;
+  padding-left: 30px;
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    list-style: none;
+    li {
+      padding-right: 50px;
+      a {
+        color: white;
+      }
+    }
   }
 }

@@ -1,0 +1,42 @@
+@import "../themes/colors.scss";
+
+//'learn more' button under breed description styles
+.learn-more-btn {
+  padding: 0px;
+  .main-info-button {
+    height: 50px;
+    width: 150px;
+    border-radius: 6px;
+    margin-top: 80px;
+    transition: 0.2s ease-in;
+    &:hover {
+      transition: 0.2s ease-in;
+    }
+  }
+}
+
+//previous and next button styles
+.arrow-btn-prev,
+.arrow-btn-next {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  background-color: transparent;
+  border-style: none;
+  &:focus {
+    outline: 0;
+  }
+  .icon-arrow-left {
+    padding-right: 20px;
+    font-size: 30px;
+  }
+  .icon-arrow-right {
+    padding-left: 20px;
+    font-size: 30px;
+  }
+}
+
+.arrow-btn-prev {
+  margin-right: 200px;
+}

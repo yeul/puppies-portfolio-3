@@ -1,0 +1,67 @@
+@import "./colors.scss";
+
+//Labrador Retriever
+
+.lab {
+  background: $background-lab;
+}
+
+.background-accent-lab {
+  background-color: $lab-accent;
+}
+
+.image-accent-lab {
+  background-color: $lab-circle;
+}
+
+//Pembroke Welsh Corgi
+.corgi {
+  background: $background-corgi;
+}
+
+.background-accent-corgi {
+  background-color: $corgi-accent;
+}
+
+.image-accent-corgi {
+  background-color: $corgi-circle;
+}
+
+//Beagle
+.beagle {
+  background: $background-beagle;
+}
+
+.background-accent-beagle {
+  background-color: $beagle-accent;
+}
+
+.image-accent-beagle {
+  background-color: $beagle-circle;
+}
+
+//Shiba Inu
+.shiba {
+  background: $background-shiba;
+}
+
+.background-accent-shiba {
+  background-color: $shiba-accent;
+}
+
+.image-accent-shiba {
+  background-color: $shiba-circle;
+}
+
+//Dachshund
+.dachshund {
+  background: $background-dachshund;
+}
+
+.background-accent-dachshund {
+  background-color: $dachshund-accent;
+}
+
+.image-accent-dachshund {
+  background-color: $dachshund-circle;
+}

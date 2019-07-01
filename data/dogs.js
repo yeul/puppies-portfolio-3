@@ -3,28 +3,36 @@ const dogs = [
     image: "../static/images/labrador-retriever.png",
     breed: "LABRADOR RETRIEVER",
     className: "lab",
-    status: "good pupper"
+    description:
+      "The sweet-faced, lovable Labrador Retriever is America’s most popular dog breed. Labs are friendly, outgoing, and high-spirited companions who have more than enough affection to go around for a family looking for a medium-to-large dog."
   },
   {
-    image: "https://trupanion.com/blog/wp-content/uploads/2017/09/GettyImages-512536165.jpg",
+    image: "../static/images/corgi.png",
     breed: "PEMBROKE WELSH CORGI",
     className: "corgi",
-    status: "good pupper"
+    description:
+      "Among the most agreeable of all small housedogs, the Pembroke Welsh Corgi is a strong, athletic, and lively little herder who is affectionate and companionable without being needy. They are one the world's most popular herding breeds."
   },
   {
-    image: "https://i.pinimg.com/originals/15/88/db/1588dba0ceed76c980a122a3d3a01974.jpg",
+    image: "../static/images/beagle.png",
     breed: "BEAGLE",
-    status: "good pupper"
+    className: "beagle",
+    description:
+      "Not only is the Beagle an excellent hunting dog and loyal companion, it is also happy-go-lucky, funny, and—thanks to its pleading expression—cute. They were bred to hunt in packs, so they enjoy company and are generally easygoing."
   },
   {
-    image: "https://cdn.akc.org/Marketplace/Breeds/Shiba_Inu_SERP.jpg",
+    image: "../static/images/shiba.png",
     breed: "SHIBA INU",
-    status: "good pupper"
+    className: "shiba",
+    description:
+      "An ancient Japanese breed, the Shiba Inu is a little but well-muscled dog once employed as a hunter. Today, the spirited, good-natured Shiba is the most popular companion dog in Japan. The adaptable Shiba is at home in town or country."
   },
   {
-    image: "https://storage.googleapis.com/nom-nom-now/images/breeds/dachshund.jpg",
+    image: "../static/images/dachshund.png",
     breed: "DACHSCHUND",
-    status: "good pupper"
+    className: "dachshund",
+    description:
+      "The famously long, low silhouette, ever-alert expression, and bold, vivacious personality of the Dachshund have made him a superstar of the canine kingdom. Dachshunds come in two sizes and in three coat types of various colors and patterns."
   }
 ];
 

@@ -1,18 +1,24 @@
+@import "../themes/colors.scss";
+
 .container-fluid {
   padding: 30px;
   .breed-info {
     margin-top: 100px;
+    padding-left: 50px;
     height: 80px;
+    .breed-description {
+      max-width: 400px;
+      line-height: 25px;
+    }
   }
 
-  .background-circles {
+  .background-accent-circle {
     position: absolute;
+    height: 720px;
+    width: 720px;
+    border-radius: 50%;
     margin-top: -50px;
     margin-left: -150px;
-    height: 750px;
-    width: 750px;
-    border-radius: 50%;
-    background-color: #fd6c78;
   }
 
   .image-container {
@@ -20,9 +26,31 @@
     justify-content: center;
     align-items: center;
     padding-left: 20px;
+    .image-accent-circle {
+      height: 550px;
+      width: 550px;
+      border-radius: 50%;
+      .dog-image-lab {
+        max-height: 530px;
+      }
+      .dog-image-corgi {
+        max-height: 530px;
+      }
+      .dog-image-beagle {
+        max-height: 530px;
+      }
+      .dog-image-shiba {
+        max-height: 580px;
+        margin-bottom: 50px;
+      }
+      .dog-image-dachshund {
+        max-height: 400px;
+        margin-top: 50px;
+      }
+    }
   }
 
-  .arrows-container {
+  .arrow-btns-container {
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;

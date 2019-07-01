@@ -1,15 +1,9 @@
 @import "./colors.scss";
 
-.dog-breed {
-  font-family: "IBM Plex Sans";
-  font-weight: 700;
-  font-style: italic;
-}
-
 .lab {
   background: $background-lab;
 }
 
-.image-circle {
-  background-color: $circle;
+.image-accent-circle {
+  background-color: $lab-circle;
 }
