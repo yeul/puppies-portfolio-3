@@ -1,0 +1,16 @@
+@import "./colors.scss";
+
+body {
+  background-color: $background-dachshund;
+  .adopt-donate {
+    font-size: 80px;
+  }
+}
+
+.aspca-logo {
+  max-height: 80px;
+}
+
+.humane-society-logo {
+  max-height: 150px;
+}

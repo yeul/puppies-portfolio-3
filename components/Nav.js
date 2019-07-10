@@ -1,30 +1,33 @@
 import React from "react";
 import Link from "next/link";
 
-import Start from "../pages/start";
+import Start from "../pages/adopt";
 
-const Nav = () => {
-  return (
-    <div id='nav-bar'>
-      <ul>
-        <li>
-          <Link href='/start'>
-            <a>Start Here</a>
-          </Link>
-        </li>
-        <li>
-          <Link href='/'>
-            <a>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href='/'>
-            <a>Contact</a>
-          </Link>
-        </li>
-      </ul>
-    </div>
-  );
-};
+class Nav extends React.Component {
+  render() {
+    console.log(this.state);
+    return (
+      <div id='nav-bar'>
+        <ul>
+          <li>
+            <Link href='/'>
+              <a>Home</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/adopt'>
+              <a>Adopt & Donate</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/contact'>
+              <a>Contact</a>
+            </Link>
+          </li>
+        </ul>
+      </div>
+    );
+  }
+}
 
 export default Nav;
