@@ -11,8 +11,8 @@ class Profile extends React.Component {
       <Fragment>
         <div className='container-fluid'>
           <div className='row no-gutters'>
-            <div className='col-lg-6'>Dogs</div>
-            <div className='col-lg-6'>Dogs</div>
+            <div className={"dog-profile col-lg-6"}>Dogs</div>
+            <div className='dog-image col-lg-6'>Dogs</div>
           </div>
         </div>
       </Fragment>

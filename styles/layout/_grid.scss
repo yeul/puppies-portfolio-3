@@ -1,5 +1,9 @@
 @import "../themes/colors.scss";
 
+img {
+  max-height: 600px;
+}
+
 .container-fluid {
   padding: 30px;
   .breed-info {
@@ -14,11 +18,11 @@
 
   .background-accent-circle {
     position: absolute;
-    height: 720px;
-    width: 720px;
+    height: 90vh;
+    width: 50vw;
     border-radius: 50%;
     margin-top: -50px;
-    margin-left: -150px;
+    margin-left: -250px;
   }
 
   .image-container {
@@ -27,9 +31,9 @@
     align-items: center;
     padding-left: 20px;
     .image-accent-circle {
-      height: 550px;
-      width: 550px;
-      border-radius: 50%;
+      // height: 550px;
+      // width: 550px;
+      // border-radius: 50%;
       .dog-image-lab {
         max-height: 530px;
       }

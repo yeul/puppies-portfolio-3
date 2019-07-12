@@ -3,4 +3,10 @@
 .container-fluid {
   height: 100vh;
   background-color: $background-lab;
+  .dog-profile,
+  .dog-image {
+    height: 100vh;
+  }
+  .dog-profile {
+  }
 }

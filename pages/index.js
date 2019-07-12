@@ -52,7 +52,8 @@ class App extends React.Component {
               </div>
             </div>
             <div className='image-container col-lg-7'>
-              <div className={`image-accent-circle image-accent-${dogs[this.state.index].className}`}>
+              <div>
+                {/* <div className={`image-accent-circle image-accent-${dogs[this.state.index].className}`}> */}
                 <img src={dogs[this.state.index].image} className={`dog-image-${dogs[this.state.index].className}`} />
               </div>
             </div>
