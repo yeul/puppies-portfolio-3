@@ -1,0 +1,38 @@
+.adopt-page-container {
+  padding: 0px;
+  height: 100%;
+  .adopt-page-row {
+    height: 50vw;
+    max-height: 75vh;
+    background: url("/static/images/adopt-page-images/puppy-bg-image-xl.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .adopt-donate-header,
+  .adopt-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .adopt-donate-header {
+    margin-top: 50px;
+  }
+
+  .adopt-text {
+    padding-left: 600px;
+    padding-right: 600px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .aspca-image-row {
+    justify-content: center;
+
+    img {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      user-select: none;
+    }
+  }
+}

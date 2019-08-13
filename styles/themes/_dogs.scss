@@ -1,0 +1,57 @@
+@import "../themes/colors";
+
+.dogs-container {
+  font-family: "Averta";
+  color: white;
+  .dogs-col-left {
+    background-color: $left-col-bg;
+  }
+  .dogs-col-right {
+    .dog-image-container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .dog-image {
+        height: 700px;
+        user-select: none;
+      }
+    }
+    .arrow-btn-left-col,
+    .arrow-btn-right-col {
+      display: flex;
+      align-items: center;
+      .arrow-box-left,
+      .arrow-box-right {
+        position: absolute;
+        z-index: 999;
+        width: 100%;
+        height: 90px;
+        border-radius: 2px;
+        color: white;
+        box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.07);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        .arrow-left,
+        .arrow-right {
+          display: flex;
+          height: 100%;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .arrow-box-left {
+        left: 120px;
+      }
+      .arrow-box-right {
+        right: 120px;
+      }
+    }
+    .arrow-btn-left-col {
+      justify-content: flex-end;
+    }
+    .arrow-btn-right-col {
+      justify-content: flex-start;
+    }
+  }
+}
