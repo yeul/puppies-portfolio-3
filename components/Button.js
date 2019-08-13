@@ -5,9 +5,9 @@ const Button = props => {
   return (
     <Link href='/profile'>
       <a>
-        <button className='main-info-button btn-primary' type='button'>
+        <div className='main-info-button btn-primary' type='button'>
           {props.buttonName}
-        </button>
+        </div>
       </a>
     </Link>
   );

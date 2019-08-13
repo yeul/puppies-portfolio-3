@@ -28,7 +28,7 @@ const dogs = [
       "An ancient Japanese breed, the Shiba Inu is a little but well-muscled dog once employed as a hunter. Today, the spirited, good-natured Shiba is the most popular companion dog in Japan. The adaptable Shiba is at home in town or country."
   },
   {
-    image: "../static/images/dachshund-svg.svg",
+    image: "../static/images/dachshund-2.png",
     breed: "DACHSCHUND",
     className: "dachshund",
     description:

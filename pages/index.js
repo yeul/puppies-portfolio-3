@@ -62,13 +62,13 @@ class App extends React.Component {
             <div className='col-lg-5' />
             <div className='arrow-btns-container col-lg-7'>
               <button className='arrow-btn-prev' onClick={this.decreaseNumber}>
-                <span className='icon-arrow-left'>⟵ </span>
-                <span className='btn-text-prev'>PREV</span>
+                {/* <span className='icon-arrow-left'>⟵ </span> */}
+                <span className='btn-text-prev'>⟵</span>
               </button>
 
               <button className='arrow-btn-next' onClick={this.increaseNumber}>
-                <span className='btn-text-next'>NEXT</span>
-                <span className='icon-arrow-right'>⟶</span>
+                <span className='btn-text-next'>⟶</span>
+                {/* <span className='icon-arrow-right'>⟶</span> */}
               </button>
             </div>
           </div>

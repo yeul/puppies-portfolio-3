@@ -4,6 +4,9 @@
 .learn-more-btn {
   padding: 0px;
   .main-info-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     width: 150px;
     border-radius: 6px;
@@ -18,10 +21,10 @@
 //previous and next button styles
 .arrow-btn-prev,
 .arrow-btn-next {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  color: white;
+  // display: flex;
+  // flex-direction: row;
+  // align-items: center;
+  // color: white;
   background-color: transparent;
   border-style: none;
   &:focus {
@@ -37,6 +40,26 @@
   }
 }
 
-.arrow-btn-prev {
-  margin-right: 200px;
+.arrow-btns-container {
+  position: absolute;
+  top: 70%;
+  left: 42%;
+  .arrow-btn-prev {
+    // margin-right: 450px;
+  }
+}
+
+.btn-text-prev,
+.btn-text-next {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  height: 80px;
+  width: 80px;
 }
