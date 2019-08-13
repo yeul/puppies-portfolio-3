@@ -47,7 +47,9 @@ class App extends React.Component {
               <div className='row no-gutters'>
                 <div className='col-lg-12'>
                   <p className='dog-info'>{dogs[this.state.index].description}</p>
-                  <Button className={dogs[this.state.index].className} />
+                  <a href={`${dogs[this.state.index].akcPage}`} className='akc-outgoing-link'>
+                    <Button className={dogs[this.state.index].className} />
+                  </a>
                 </div>
               </div>
             </div>

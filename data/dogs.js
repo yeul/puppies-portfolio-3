@@ -1,6 +1,7 @@
 const dogs = [
   {
     image: "../static/images/labrador-retriever-final-2.png",
+    akcPage: "https://www.akc.org/dog-breeds/labrador-retriever/",
     breed: "Labrador Retriever",
     className: "lab",
     description:
@@ -8,6 +9,7 @@ const dogs = [
   },
   {
     image: "../static/images/corgi-final.png",
+    akcPage: "https://www.akc.org/dog-breeds/pembroke-welsh-corgi/",
     breed: "Pembroke Welsh Corgi",
     className: "corgi",
     description:
@@ -15,6 +17,7 @@ const dogs = [
   },
   {
     image: "../static/images/beagle-final.png",
+    akcPage: "https://www.akc.org/dog-breeds/beagle/",
     breed: "Beagle",
     className: "beagle",
     description:
@@ -22,6 +25,7 @@ const dogs = [
   },
   {
     image: "../static/images/shiba-final.png",
+    akcPage: "https://www.akc.org/dog-breeds/shiba-inu/",
     breed: "Shiba Inu",
     className: "shiba",
     description:
@@ -29,6 +33,7 @@ const dogs = [
   },
   {
     image: "../static/images/dachshund-final.png",
+    akcPage: "https://www.akc.org/dog-breeds/dachshund/",
     breed: "Dachshund",
     className: "dachshund",
     description:

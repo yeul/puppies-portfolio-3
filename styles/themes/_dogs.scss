@@ -5,6 +5,9 @@
   color: white;
   .dogs-col-left {
     background-color: $left-col-bg;
+    .akc-outgoing-link {
+      text-decoration: none;
+    }
   }
   .dogs-col-right {
     .dog-image-container {
