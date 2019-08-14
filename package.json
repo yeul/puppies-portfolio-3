@@ -1,12 +1,12 @@
 {
   "name": "puppies-portfolio-3",
   "version": "1.0.0",
-  "description": "",
+  "description": "Puppies portfolio site",
   "main": "next.config.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "keywords": [],
   "author": "https://github.com/yeul",
