@@ -39,13 +39,13 @@ class App extends React.Component {
         <div className='dogs-container container-fluid'>
           <div className='dogs-row row no-gutters'>
             <div className='dogs-col-left col-lg-5'>
-              <div className='row no-gutters'>
-                <div className='col-lg-12'>
+              <div className='dogs-left-inner-row row no-gutters'>
+                <div className='dogs-left-inner-col col-lg-12'>
                   <h1 className='dog-breed'>{dogs[this.state.index].breed}</h1>
                 </div>
               </div>
-              <div className='row no-gutters'>
-                <div className='col-lg-12'>
+              <div className='btn-row row no-gutters'>
+                <div className='btn-col col-lg-12'>
                   <p className='dog-info'>{dogs[this.state.index].description}</p>
                   <a href={`${dogs[this.state.index].akcPage}`} className='akc-outgoing-link'>
                     <Button className={dogs[this.state.index].className} />

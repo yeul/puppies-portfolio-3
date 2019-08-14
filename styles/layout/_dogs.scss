@@ -6,22 +6,42 @@
   .dogs-row {
     height: 100%;
     .dogs-col-left {
-      height: 100%;
       display: flex;
+      flex: 1 1 auto;
       flex-direction: column;
       justify-content: center;
       padding-left: 120px;
       padding-right: 120px;
+      @media #{$md-and-smaller} {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .dog-breed {
+        @media #{$md-and-smaller} {
+          margin-top: 120px;
+        }
+      }
+
       .dog-info {
         margin-top: 30px;
         margin-bottom: 50px;
         line-height: 28px;
+      }
+
+      .btn-col {
+        @media #{$md-and-smaller} {
+          margin-bottom: 200px;
+        }
       }
     }
     .dogs-col-right {
       .dogs-right-row {
         height: 100vh;
         .wave-col {
+          @media #{$md-and-smaller} {
+            display: none;
+          }
           .rounded-col-img {
             background-image: url("/static/images/sidebar-curve.png");
             height: 100vh;

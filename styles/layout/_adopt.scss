@@ -3,8 +3,8 @@
 .adopt-page-container {
   padding: 0px;
   height: 100%;
-  @media #{$md-and-smaller} {
-    height: 100vh;
+  @media #{$lg-and-smaller} {
+    min-height: 100vh;
   }
   .adopt-page-row {
     height: 50vw;
@@ -30,6 +30,11 @@
     text-align: center;
     margin-top: 30px;
     @media #{$md-and-smaller} {
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: left;
+    }
+    @media #{$lg-only} {
       padding-left: 50px;
       padding-right: 50px;
       text-align: left;

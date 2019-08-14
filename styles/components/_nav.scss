@@ -2,6 +2,18 @@
   position: fixed;
   z-index: 10;
   margin-top: 50px;
+  @media #{$md-and-smaller} {
+    position: relative;
+    background: $left-col-bg;
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+
+  .nav-col-left {
+    @media #{$md-and-smaller} {
+      margin-bottom: 50px;
+    }
+  }
 
   .home,
   .adopt {
@@ -19,14 +31,29 @@
   .site-title {
     font-family: "Cera PRO Black";
     padding-left: 100px;
+    @media #{$md-and-smaller} {
+      padding: 0px;
+      display: flex;
+      justify-content: center;
+    }
   }
 
   .nav-ul {
     font-family: "Cera PRO Regular";
     display: flex;
+    flex: 1 1 auto;
     justify-content: space-evenly;
     list-style: none;
     align-items: center;
+    @media #{$lg-and-smaller} {
+      margin-bottom: 25px;
+    }
+    @media #{$ie11} {
+      justify-content: space-around;
+    }
+    @media #{$md-and-smaller} {
+      padding: 0px;
+    }
     .adopt-donate-link {
       border-radius: 50px;
       height: 50px;
