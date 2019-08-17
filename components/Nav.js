@@ -30,7 +30,7 @@ class Nav extends React.Component {
                     </a>
                   </li>
                   <li>
-                    <a href='https://github.com/yeul/portfolio-3' target='_blank' className={`${this.props.currentPage}`}>
+                    <a href='https://github.com/yeul/puppies-portfolio-3' target='_blank' className={`${this.props.currentPage}`}>
                       Github
                     </a>
                   </li>
